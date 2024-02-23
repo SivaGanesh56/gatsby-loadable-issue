@@ -1,14 +1,14 @@
 import React from "react";
 
-// import loadable from "@loadable/component";
+import loadable from "@loadable/component";
 
-// const TemplateA = loadable(() => import("./TemplateA"));
-// const TemplateB = loadable(() => import("./TemplateB"));
-// const TemplateC = loadable(() => import("./TemplateC"));
+const TemplateA = loadable(() => import("./TemplateA"));
+const TemplateB = loadable(() => import("./TemplateB"));
+const TemplateC = loadable(() => import("./TemplateC"));
 
-import TemplateA from "./TemplateA";
-import TemplateB from "./TemplateB";
-import TemplateC from "./TemplateC";
+// import TemplateA from "./TemplateA";
+// import TemplateB from "./TemplateB";
+// import TemplateC from "./TemplateC";
 
 const templatesMap = {
   a: TemplateA,
