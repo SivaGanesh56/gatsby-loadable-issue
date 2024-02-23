@@ -1,0 +1,41 @@
+# GET https://cdn.contentful.com/spaces/ukazlt65o6hl/entries?select=sys&order=sys.createdAt&sys.updatedAt[gte]=2023-04-11T00:00:00Z
+# Authorization: Bearer 3gwqhJhNhYmQTqKiskqRD1DeXGM7IqGT2UownM-bhY0
+
+##
+
+##
+# GET https://cdn.contentful.com/spaces/dp6di6p4g2vi/entries?select=sys,fields&order=sys.createdAt&sys.updatedAt[gte]=2023-04-19T06:38:23.092Z&include=2
+# Authorization: Bearer iqIUgxtxbNHa50E4zIYX4JApi82zUB6uBf0ldiTZxLY
+
+
+# # # ##
+# GET https://cdn.contentful.com/spaces/dp6di6p4g2vi/environments/master/entries/39Y4gyzgg2rj9UHKfam5SQ
+# Authorization: Bearer iqIUgxtxbNHa50E4zIYX4JApi82zUB6uBf0ldiTZxLY
+
+
+
+# GET https://cdn.contentful.com/spaces/ukazlt65o6hl/environments/master/entries/5IRXmpCQ1qhB92os5FTLHV?include=2
+# Authorization: Bearer 3gwqhJhNhYmQTqKiskqRD1DeXGM7IqGT2UownM-bhY0
+
+
+# personal contentful account
+
+# GET https://cdn.contentful.com/spaces/dp6di6p4g2vi/entries?select=sys,fields&order=sys.createdAt&sys.updatedAt[gte]=2023-04-11T00:00:00Z
+# Authorization: Bearer iqIUgxtxbNHa50E4zIYX4JApi82zUB6uBf0ldiTZxLY   
+
+
+# # user management api
+# GET https://api.contentful.com/organizations/0byZy1dCvkym2FkzXWOxC9/users?limit=100
+# Authorization: Bearer CFPAT-E5mkFYtSPGMeDMQcZXwMpuwxNwHSLVhmOUsCCUYo_4E
+
+
+
+#
+# POST http://localhost:8000/__refresh
+
+GET https://gab9jrkvsg.execute-api.us-east-1.amazonaws.com/demo 
+x-contentful-secret-token: 46ec9a93-1f55-4856-82a2-1aea47071339
+
+
+
+arn:aws:execute-api:us-east-1:060221766864:gab9jrkvsg/*/*

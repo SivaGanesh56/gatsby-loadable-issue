@@ -47,3 +47,5 @@
 Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 [<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+    // "aws:deploy": "npm run clean && npm run build && AWS_ACCESS_KEY_ID=AKIAQ4BL7HTIB65P7FCX AWS_SECRET_ACCESS_KEY=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 npm run deploy",
